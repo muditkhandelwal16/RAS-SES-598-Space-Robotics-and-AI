@@ -1,3 +1,10 @@
+I first started with self.Kp_linear = 1.0 # Proportional gain for linear velocity self.Kd_linear = 0.1 # Derivative gain for linear velocity self.Kp_angular = 1.0 # Proportional gain for angular velocity self.Kd_angular = 0.1 # Derivative gain for angular velocity
+
+To achieve smooth and precise path-following
+
+For linear velocity (Kp_linear), I set it to 5.0. This value provided a good balance between speed and stability, preventing the turtle from overshooting while maintaining reasonable speed. For angular velocity (Kp_angular), I increased to 5.0, which allowed the turtle to correct its orientation quickly so that it makes shart turns and stay on course during turns, but the turn was not sharp enough.
+
+For linear velocity (Kd_linear) and angular velocity (Kd_angular), I set both to 0.01. This small value helped smooth out the turtle's movement and prevent jerky motions or overshooting as it approached waypoints. Through iterative testing, I found that self.Kp_linear = 4.0 # Proportional gain for linear velocity self.Kd_linear = 0.001 # Derivative gain for linear velocity self.Kp_angular = 10.0 # Proportional gain for angular velocity self.Kd_angular = 0.001 # Derivative gain for angular velocity these values minimized average cross-track error of 0.073 while ensuring the turtle followed the waypoints efficiently without instability.
 # First-Order Boustrophedon Navigator
 ![image](https://github.com/user-attachments/assets/940fc6bc-fcee-4d11-8bc8-d53a650aaf80)
 
