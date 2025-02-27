@@ -1,7 +1,7 @@
 # Cart-Pole Optimal Control Assignment
 
-[Watch the demo video](https://drive.google.com/file/d/1UEo88tqG-vV_pkRSoBF_-FWAlsZOLoIb/view?usp=sharing)
-![image](https://github.com/user-attachments/assets/c8591475-3676-4cdf-8b4a-6539e5a2325f)
+![image](https://github.com/muditkhandelwal16/RAS-SES-598-Space-Robotics-and-AI/blob/main/assignments/cart_pole_optimal_control/cart_pole.png)
+![image](https://github.com/muditkhandelwal16/RAS-SES-598-Space-Robotics-and-AI/blob/main/assignments/cart_pole_optimal_control/graph.png)
 
 ## Overview
 This assignment challenges students to tune and analyze an LQR controller for a cart-pole system subject to earthquake disturbances. The goal is to maintain the pole's stability while keeping the cart within its physical constraints under external perturbations. The earthquake force generator in this assignment introduces students to simulating and controlling systems under seismic disturbances, which connects to the Virtual Shake Robot covered later in the course. The skills developed here in handling dynamic disturbances and maintaining system stability will be useful for optimal control of space robots, such as Lunar landers or orbital debris removal robots.
