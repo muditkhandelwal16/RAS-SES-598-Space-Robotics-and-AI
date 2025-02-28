@@ -83,3 +83,5 @@ These are graphs of Cart position, Pole angle, Cart velocity and Control force p
 
 
 The plots illustrate the system response over time, showing minimal deviations in both cart position and pole angle. The LQR controller successfully ensured stability and controlled oscillations efficiently.
+This is the simulation of the cart pole.
+![image](https://github.com/muditkhandelwal16/RAS-SES-598-Space-Robotics-and-AI/blob/main/assignments/cart_pole_optimal_control/cart_pole.png)
