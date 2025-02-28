@@ -74,7 +74,7 @@ Maximum cart position deviation: +0.04 m and -0.045 m
 
 These results demonstrate that the LQR controller effectively stabilized the system, achieving the objective of keeping the cart near the center while preventing the pole from falling.
 
-**Plots**
+**5. Plots**
 
 These are graphs of Cart position, Pole angle, Cart velocity and Control force plotted against time.
 
@@ -85,3 +85,7 @@ These are graphs of Cart position, Pole angle, Cart velocity and Control force p
 The plots illustrate the system response over time, showing minimal deviations in both cart position and pole angle. The LQR controller successfully ensured stability and controlled oscillations efficiently.
 This is the simulation of the cart pole.
 ![image](https://github.com/muditkhandelwal16/RAS-SES-598-Space-Robotics-and-AI/blob/main/assignments/cart_pole_optimal_control/cart_pole.png)
+
+### **6. Conclusion
+
+The iterative tuning of the LQR controller successfully optimized the balance between pole stability and cart position, significantly improving system performance. The final cost matrix [100, 50, 200, 50] effectively minimized deviations, with a maximum pole angle of ±0.035 rad and cart position variations within ±0.045 m. These results confirm that the LQR approach is effective in controlling the cart-pole system, demonstrating robust stability and efficient response. Future work may involve testing the controller under external disturbances and further refining the cost matrix for even better performance.
